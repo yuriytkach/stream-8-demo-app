@@ -22,4 +22,4 @@ To start up Kafka broker please use the provided docker-compose file.
 - `spring-boot-app` - Application written with Spring Boot that listens to Kafka messages, process them and sends result to another topic.
 - `quarkus-app` - Application written with Quarkus that has REST endpoint to send messages to Kafka, listen to them, process and send to another topic.
 
-
+![Diagram for Apps Collaboration](https://github.com/yuriytkach/stream-8-demo-app/blob/main/diagrams-drawio-demo-apps.png?raw=true)
